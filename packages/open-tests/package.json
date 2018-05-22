@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118118-28906-1y6cx0n.mnx4njc3di/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118118-28906-1y6cx0n.mnx4njc3di/package.tgz",
+        "spec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118118-28906-1y6cx0n.mnx4njc3di/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/apm-install-dir-118118-28906-15524lj.en3w3766r"
+    ]
+  ],
+  "_from": "../d-118118-28906-1y6cx0n.mnx4njc3di/package.tgz",
+  "_id": "open-tests@0.5.0",
+  "_inCache": true,
+  "_location": "/open-tests",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118118-28906-1y6cx0n.mnx4njc3di/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118118-28906-1y6cx0n.mnx4njc3di/package.tgz",
+    "spec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118118-28906-1y6cx0n.mnx4njc3di/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118118-28906-1y6cx0n.mnx4njc3di/package.tgz",
+  "_shasum": "5bf42078bffbd04a580b095a721d3499b09c70c9",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118118-28906-1y6cx0n.mnx4njc3di/package.tgz",
+  "_where": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/apm-install-dir-118118-28906-15524lj.en3w3766r",
+  "activationCommands": {
+    "atom-workspace": "open-tests:open"
+  },
+  "bugs": {
+    "url": "https://github.com/guilhermelimak/open-tests/issues"
+  },
+  "dependencies": {
+    "atom": "^1.0.0",
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "eslint-plugin-jest": "^19.0.1"
+  },
+  "description": "Open tests of current file in atom",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb-base": "^11.1.2",
+    "eslint-plugin-import": "^2.2.0",
+    "jest": "^19.0.2"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/guilhermelimak/open-tests#readme",
+  "keywords": [
+    "tests"
+  ],
+  "license": "MIT",
+  "main": "./lib/open-tests",
+  "name": "open-tests",
+  "optionalDependencies": {},
+  "readme": "# open-tests\n\nA simple package to open the tests related to the current file.\n\nExample:\nIf the current open file is `~/feature.js`, the open command will open the `~/feature.spec.js` file.\n\nThe `.spec` part is the `Test extension` option avaliable in this package settings.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermelimak/open-tests.git"
+  },
+  "scripts": {
+    "lint": "eslint lib/*",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "version": "0.5.0"
+}

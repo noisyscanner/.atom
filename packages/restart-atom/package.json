@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118118-13012-vq8seu.he4b7ta9k9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118118-13012-vq8seu.he4b7ta9k9/package.tgz",
+        "spec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118118-13012-vq8seu.he4b7ta9k9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/apm-install-dir-118118-13012-zok8xk.4vss65stt9"
+    ]
+  ],
+  "_from": "../d-118118-13012-vq8seu.he4b7ta9k9/package.tgz",
+  "_id": "restart-atom@0.2.0",
+  "_inCache": true,
+  "_location": "/restart-atom",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118118-13012-vq8seu.he4b7ta9k9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118118-13012-vq8seu.he4b7ta9k9/package.tgz",
+    "spec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118118-13012-vq8seu.he4b7ta9k9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118118-13012-vq8seu.he4b7ta9k9/package.tgz",
+  "_shasum": "3b422d00244dd709d6a01cabb9cb0a0594a4ceb7",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118118-13012-vq8seu.he4b7ta9k9/package.tgz",
+  "_where": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/apm-install-dir-118118-13012-zok8xk.4vss65stt9",
+  "activationCommands": {
+    "atom-workspace": "restart-atom:restart"
+  },
+  "bugs": {
+    "url": "https://github.com/brentnortham/restart-atom/issues"
+  },
+  "dependencies": {},
+  "description": "An atom package to restart atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/brentnortham/restart-atom#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/restart-atom",
+  "name": "restart-atom",
+  "optionalDependencies": {},
+  "readme": "# restart-atom package\n\nA simple package to restart the atom application and reopen windows as they were when exiting.\n\nInstall:\n```bash\napm install restart-atom\n```\n\nPress `CTRL-ALT-X` in the workspace to restart Atom.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentnortham/restart-atom.git"
+  },
+  "version": "0.2.0"
+}

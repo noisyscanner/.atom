@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118214-38211-1dhfucx.twhebqpvi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118214-38211-1dhfucx.twhebqpvi/package.tgz",
+        "spec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118214-38211-1dhfucx.twhebqpvi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/apm-install-dir-118214-38211-3ige77.n6e3njnhfr"
+    ]
+  ],
+  "_from": "../d-118214-38211-1dhfucx.twhebqpvi/package.tgz",
+  "_id": "api-blueprint-preview@0.7.0",
+  "_inCache": true,
+  "_location": "/api-blueprint-preview",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118214-38211-1dhfucx.twhebqpvi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118214-38211-1dhfucx.twhebqpvi/package.tgz",
+    "spec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118214-38211-1dhfucx.twhebqpvi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118214-38211-1dhfucx.twhebqpvi/package.tgz",
+  "_shasum": "60b3cda1b77ec6f9ad978551d9c3988024e85faf",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118214-38211-1dhfucx.twhebqpvi/package.tgz",
+  "_where": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/apm-install-dir-118214-38211-3ige77.n6e3njnhfr",
+  "bugs": {
+    "url": "https://github.com/danielgtaylor/atom-api-blueprint-preview/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "cheerio": "0.15.0",
+    "fs-plus": "^2.0.0",
+    "grim": "^1.2.1",
+    "pathwatcher": "^6.3",
+    "temp": "^0.8.1",
+    "underscore-plus": "^1.0.0",
+    "wrench": "^1.5.0"
+  },
+  "description": "Open a rendered version of the API Blueprint in the current editor with `ctrl-shift-a`.",
+  "devDependencies": {},
+  "engines": {
+    "atom": "*"
+  },
+  "homepage": "https://github.com/danielgtaylor/atom-api-blueprint-preview#readme",
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "api-blueprint-preview",
+  "optionalDependencies": {},
+  "readme": "# API Blueprint Preview\n\nA plugin for the [Atom](http://atom.io/) editor to show the rendered HTML API Blueprint to the right of the current editor using `ctrl-shift-a`.\n\nThis plugin requires [aglio](https://github.com/danielgtaylor/aglio) to be installed and in your path, via e.g:\n\n```bash\nsudo npm install -g aglio\n```\n\n![screenshot](https://f.cloud.github.com/assets/106826/2406778/3dafb1d0-aa79-11e3-8e77-d0c7320a073b.png)\n\n## Installation\nInstall this plugin via the Atom settings or in a terminal:\n\n```bash\napm install api-blueprint-preview\n```\n\n## Contributing\n\nFeel free to contribute! Pull requests are always welcome. If you add a new feature, please include a code snippet to exhibit the feature in the pull request.\n\n## License\n\nCopyright © 2015 Daniel G. Taylor. Based on the Markdown Preview plugin.\n\nhttp://dgt.mit-license.org/\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielgtaylor/atom-api-blueprint-preview.git"
+  },
+  "version": "0.7.0"
+}

@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle open-tests",
+        "command": "open-tests:open"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "open-tests",
+          "submenu": [
+            {
+              "label": "Open",
+              "command": "open-tests:open"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
