@@ -1,0 +1,69 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118529-27379-1hy12fy.7qbcf5stt9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118529-27379-1hy12fy.7qbcf5stt9/package.tgz",
+        "spec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118529-27379-1hy12fy.7qbcf5stt9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/apm-install-dir-118529-27379-1fty7s5.e4i8wd0a4i"
+    ]
+  ],
+  "_from": "../d-118529-27379-1hy12fy.7qbcf5stt9/package.tgz",
+  "_id": "autocomplete-javascript@0.0.2",
+  "_inCache": true,
+  "_location": "/autocomplete-javascript",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118529-27379-1hy12fy.7qbcf5stt9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118529-27379-1hy12fy.7qbcf5stt9/package.tgz",
+    "spec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118529-27379-1hy12fy.7qbcf5stt9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118529-27379-1hy12fy.7qbcf5stt9/package.tgz",
+  "_shasum": "b55fb5d940bb0d0c1eb5e4093364ae629499aa55",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/d-118529-27379-1hy12fy.7qbcf5stt9/package.tgz",
+  "_where": "/private/var/folders/6m/6l61xvns79n5wtrn4s321nrmthtcr7/T/apm-install-dir-118529-27379-1fty7s5.e4i8wd0a4i",
+  "activationCommands": {
+    "atom-workspace": "autocomplete-javascript:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/guiguan/autocomplete-javascript/issues"
+  },
+  "dependencies": {},
+  "description": "[WIP] The missing Atom autocompletion support for modern javascript",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/guiguan/autocomplete-javascript#readme",
+  "keywords": [
+    "javascript",
+    "autocomplete",
+    "intellisense",
+    "babel",
+    "babylon"
+  ],
+  "license": "MIT",
+  "main": "./lib/autocomplete-javascript",
+  "name": "autocomplete-javascript",
+  "optionalDependencies": {},
+  "readme": "# autocomplete-javascript\n*[WIP] The missing Atom autocompletion support for modern javascript*\n\n## Proposal\nBuild a robust and efficient autocomplete support for modern javascript\n\n1. Using Babel's [babylon](https://github.com/babel/babylon) js parser\n2. Robust and efficient background worker process\n3. Support es6/7 stage-0 cutting edge js features\n4. Auto-adjust to `.babelrc`\n5. [esdoc](https://esdoc.org/)/[jsdoc](http://usejsdoc.org/) support\n6. Better than `atom-ternjs` (no more exceptions and server restarts 😂)\n\n![JavaScript](https://raw.githubusercontent.com/guiguan/autocomplete-javascript/master/images/javascript.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guiguan/autocomplete-javascript.git"
+  },
+  "version": "0.0.2"
+}
